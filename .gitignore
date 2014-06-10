@@ -68,3 +68,11 @@ bower_components/backbone/index.js
 bower_components/backbone/index.html
 
 bower_components/bootstrap/bower.json
+
+includes/bootstrap/bower.json
+
+includes/backbone/.bower.json
+
+includes/backbone/.npmignore
+
+models/landingPageModel.js
