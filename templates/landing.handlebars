@@ -1,0 +1,22 @@
+{{!-- landing start --}}
+<div>
+    <label>{{model.language.registerStr}}</label>
+    <div class="input-group">
+        <label for="email">
+            {{model.language.registerEmailLabel}}
+        </label>
+        <input name="email" type="email" id="usrEmail"
+               placeholder="{{model.language.registerEmailPlaceholder}}" />
+    </div>
+    <div class="input-group">
+        <label for="password">
+            {{model.language.registerPasswordLabel}}
+        </label>
+        <input name="password" type="password" id="usrEmail"
+               placeholder="{{model.language.registerEmailPlaceholder}}" />
+    </div>
+    <div class="input-group">
+        <button name="btnSubmitRegistration" type="submit" value="{{model.language.registerRegisterSubmitBtn}}"></button>
+    </div>
+</div>
+{{!-- landing end --}}

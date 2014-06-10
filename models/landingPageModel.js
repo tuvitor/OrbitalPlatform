@@ -10,7 +10,9 @@ App.Models.LandingPageModel = Backbone.Model.extend({
         welcomeStr: null,
         registerStr: null,
         registerEmailLabel: null,
+        registerEmailPlaceholder: null,
         registerPasswordLabel: null,
+        registerPasswordPlaceholder: null,
         registerRegisterSubmitBtn: null
     }
 
