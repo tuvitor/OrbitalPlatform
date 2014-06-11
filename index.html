@@ -5,14 +5,23 @@
     <title>Orbital Platform .:</title>
     <!-- included libs -->
     <script type="text/javascript" src="includes/jquery/dist/jquery.min.js"></script>
-    <script type="text/javascript" src="includes/handlebars/handlebars.runtime.min.js"></script>
+    <script type="text/javascript" src="includes/handlebars/handlebars.min.js"></script>
     <script type="text/javascript" src="includes/underscore/underscore.js"></script>
     <script type="text/javascript" src="includes/backbone/backbone.js"></script>
     <link rel="stylesheet" type="text/css" href="includes/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="includes/bootstrap/dist/js/bootstrap.min.js">
+    <script type="text/javascript" src="app/handlebarsResources.js"></script>
     <!-- end included libs -->
 </head>
 <body>
+
+<script type="text/x-handlebars-template" id="dynamicList">
+    {{!-- begin template --}}
+    <table>
+        {{dynamicList Pets}}
+    </table>
+    {{!-- end template --}}
+</script>
 
 <header>Header</header>
 <nav>Nav</nav>
